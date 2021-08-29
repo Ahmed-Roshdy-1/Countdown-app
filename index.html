@@ -20,7 +20,7 @@
     <!--  Container -->
     <div class="container">
       <!-- Input -->
-      <div class="input-container" id="input-container">
+      <div class="input-container" id="input-container" hidden>
         <h1> Create date to countdown </h1>
         <form action="form" id="countdownForm">
           <label for="title">Title</label>
@@ -29,6 +29,18 @@
           <input type="date" id="date-picker" />
           <button type="submit"> Submit </button>
         </form>
+      </div>
+
+      <!-- Countdown -->
+      <div class="countdown" id="countdown">
+        <h1 id="countdown-title">Countdown Title</h1>
+        <ul>
+          <li><span>3</span>Days</li>
+          <li><span>8</span>Hours</li>
+          <li><span>36</span>Minutes</li>
+          <li><span>62</span>Seconds</li>
+        </ul>
+        <button id="countdown-button">Reset</button>
       </div>
     </div>
     <!-- Script connection -->
