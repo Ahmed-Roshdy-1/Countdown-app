@@ -15,6 +15,7 @@ let countdownTitle = "";
 let CountdownDate = "";
 let countdownValue = Date;
 let countdownActive;
+let savaCountdown; // to store it Local Storage
 
 const second = 1000;
 const minute = second * 60;
