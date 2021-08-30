@@ -134,11 +134,11 @@ li span {
 
 @keyframes complete {
   0% {
-    color: #e63946;
+    color: #ffadad;
   }
 
   25% {
-    color: #caf0f8;
+    color: #e63946;
   }
 
   50% {
@@ -150,7 +150,7 @@ li span {
   }
 
   100% {
-    color: #ff8800;
+    color: #80ffdb;
   }
 }
 /* Media Query: Large Smartphone (Vertical) */
